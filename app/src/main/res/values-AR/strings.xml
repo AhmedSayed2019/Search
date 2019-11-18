@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name"> Search </string>
+
+
+    <string name="icon" />
+
+    <!--Login-->
+    <string name="login_email"> البريد الإلكتروني </string>
+    <string name="login_password"> كلمة المرور </string>
+    <string name="login_forgot_password"> هل نسيت كلمة المرور؟ </string>
+    <string name="login_login"> تسجيل الدخول </string>
+    <string name="login_welcome"> مرحبًا "" </string>
+    <string name="login_Please_login_here"> الرجاء تسجيل الدخول هنا </string>
+    <string name="login_sign_up"> قم بالتسجيل </string>
+    <string name="create_a_new_account"> إنشاء حساب جديد؟ </string>
+
+    <string name="name_or_national_id">الاسم / الرقم القومي</string>
+    <string name="name">الاسم</string>
+    <string name="national_id">الرقم القومي</string>
+    <string name="caseNumber">المحضر</string>
+    <string name="criminalRecordNumber">القضية</string>
+    <string name="year">السنة</string>
+    <string name="address">الاقامة</string>
+    <string name="criminalType">التهمة</string>
+    <string name="courtHearingDate">الجلسة</string>
+    <string name="judge">الحكم</string>
+</resources>

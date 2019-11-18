@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Search</string>
+
+    <!--Delmar" "&amp;" "Atallah-->
+    <string name="icon" />
+
+    <!--Login-->
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_forgot_password">Forgot password ?</string>
+    <string name="login_login">Login</string>
+    <string name="login_welcome">Welcome" "</string>
+    <string name="login_Please_login_here">Please login here</string>
+    <string name="login_sign_up">Sign up</string>
+    <string name="create_a_new_account">Create a new account</string>
+
+    <string name="name_or_national_id">Name / national ID</string>
+    <string name="name">Name</string>
+    <string name="national_id">National ID</string>
+    <string name="caseNumber">Case number</string>
+    <string name="criminalRecordNumber">Criminal record number</string>
+    <string name="year">Year</string>
+    <string name="address">Address</string>
+    <string name="criminalType">Criminal type</string>
+    <string name="courtHearingDate">Court hearing date</string>
+    <string name="judge">Judge</string>
+    <!--details-->
+
+</resources>

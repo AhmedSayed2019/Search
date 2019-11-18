@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/predictedRow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginBottom="@dimen/large_margin"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    android:padding="@dimen/small_margin"
+    card_view:cardCornerRadius="10dp"
+  >
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/itemDetails_txVw_type"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:paddingLeft="@dimen/normal_margin"
+                android:paddingRight="@dimen/normal_margin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/large_text" />
+
+            <TextView
+                android:id="@+id/itemDetails_txVw_value"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/large_text" />
+        </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

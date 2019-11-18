@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray9"
+    android:orientation="vertical"
+
+    tools:context=".search.SearchActivity">
+
+    <include layout="@layout/toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/large_margin">
+        <EditText
+            android:id="@+id/search_edtx_criminaFilter"
+            android:layout_width="match_parent"
+
+            android:layout_height="@dimen/normal_hight_button"
+            android:layout_margin="@dimen/small_margin"
+            android:autofillHints="@string/name_or_national_id"
+            android:background="@color/white"
+            android:hint="@string/name_or_national_id"
+            android:inputType="textFilter"
+            android:paddingHorizontal="@dimen/large_margin"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray2"
+            tools:targetApi="o" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/search_rcyVw_criminalsList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/normal_margin"
+            android:scrollbarSize="0dp"
+            android:scrollbarStyle="outsideInset"
+            tools:listitem="@layout/item_search_row" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray9"
+    tools:context=".details.DetailsActivity"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar_back"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/search_rcyVw_criminalsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/large_margin"
+        android:scrollbarSize="0dp"
+        android:scrollbarStyle="outsideInset"
+        tools:listitem="@layout/item_details_row" />
+</LinearLayout>
